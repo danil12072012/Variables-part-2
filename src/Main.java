@@ -1,13 +1,18 @@
 public class Main {
     public static void main(String[] args) {
 
-        short minGram = 250;
-        short maxGram = 500;
-        byte justKilogram = 7;
-        int minDay = justKilogram * 1000 / maxGram;
-        int maxDay = justKilogram * 1000 / minGram;
-        int averageDay = (minDay + maxDay) / 2;
-        System.out.println ("Миниум спортсмен может похудеть за " + minDay + " дней, максимум за " + maxDay + " дней. В среднем спортсмен может похудеть за " + averageDay + " дней.");
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        int mashaWithPromotion = masha / 100 * 110;
+        int mashaAnnualDifference = masha / 100 * 10 * 12;
+        int denisWithPromotion = denis / 100 * 110;
+        int denisAnnualDifference = denis / 100 * 10 * 12;
+        int kristinaWithPromotion = kristina / 100 * 110;
+        int kristinaAnnualDifference = kristina / 100 * 10 * 12;
+        System.out.println ("Маша теперь получает " + mashaWithPromotion + " рублей. Годовой доход вырос на " + mashaAnnualDifference + " рублей.");
+        System.out.println ("Денис теперь получает " + denisWithPromotion + " рублей. Годовой доход вырос на " + denisAnnualDifference + " рублей.");
+        System.out.println ("Кристина теперь получает " + denisWithPromotion + " рублей. Годовой доход вырос на " + kristinaAnnualDifference + " рублей.");
 
 
 
