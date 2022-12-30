@@ -1,17 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        byte bananaOneWeight = 80;
-        byte bananaQuantity = 5;
-        byte milkOneWeight = 105;
-        byte milkQuantity = 2;
-        byte iceCreamOneWeight = 100;
-        byte iceCreamQuantity = 2;
-        byte eggOneWeight = 70;
-        byte eggQuantity = 4;
-        int breakfastGram = bananaOneWeight * bananaQuantity + milkOneWeight * milkQuantity + iceCreamOneWeight * iceCreamQuantity + eggOneWeight * eggQuantity;
-        int breakfastKilogram = breakfastGram / 1000;
-        System.out.println("Вес завтрака спортсмена составил " + breakfastGram + " грамм, что соответствует " + breakfastKilogram + " килограмм.");
+        short minGram = 250;
+        short maxGram = 500;
+        byte justKilogram = 7;
+        int minDay = justKilogram * 1000 / maxGram;
+        int maxDay = justKilogram * 1000 / minGram;
+        int averageDay = (minDay + maxDay) / 2;
+        System.out.println ("Миниум спортсмен может похудеть за " + minDay + " дней, максимум за " + maxDay + " дней. В среднем спортсмен может похудеть за " + averageDay + " дней.");
+
 
 
     }
