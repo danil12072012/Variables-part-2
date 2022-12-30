@@ -1,14 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        float a = 27.12f;
-        long b = 987678965549L;
-        float c = 2.786f;
-        short d = 569;
-        short e = -159;
-        short f = 27897;
-        byte g = 67;
-
-        ;
+        byte studentsOfLyudmilaPavlovna = 23;
+        byte studentsOfAnnaSergeevna = 27;
+        byte  studentsOfEkaterinaAndreevna = 30;
+        short sheetsOfPaperTotal = 480;
+        int sheetsStudent = sheetsOfPaperTotal /(studentsOfLyudmilaPavlovna + studentsOfAnnaSergeevna + studentsOfEkaterinaAndreevna);
+        System.out.println("На каждого ученика рассчитано " + sheetsStudent  + "  листов бумаги.");
     }
 }
